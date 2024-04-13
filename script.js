@@ -1,5 +1,5 @@
 class Persona {
-    nombre; apellido; estado_civil; nro_identificacion; rol;
+    nombre; apellido; estado_civil; nro_identificacion;
     // Los "p"palabra indican los que son parametros
     constructor(pnombre, papellido, pestado_civil, pnro_identificacion) {
         this.nombre = pnombre;
@@ -23,10 +23,7 @@ class Persona {
     getNro_identificacion() {
         return this.nro_identificacion;
     }
-
-    getRol() {
-        return this.rol;
-    }
+    
     //Metodo Setter para cambiar el estado civil
     setEstado_civil(nuevo_estado_civil) {
         this.estado_civil = nuevo_estado_civil;
